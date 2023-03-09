@@ -1,0 +1,12 @@
+name: hello-world
+# действие на которое запускается workflow
+on: push
+
+jobs:
+  # имя задания
+  say-hello:
+    # OC для запуска
+    runs-on: ubuntu-latest
+    # шаги, которые надо выполнить
+    steps:
+      run: make say-hello
