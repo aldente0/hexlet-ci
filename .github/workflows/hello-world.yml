@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     # шаги, которые надо выполнить
     steps:
-      run: make say-hello
+      - run: make say-hello
