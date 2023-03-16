@@ -1,4 +1,4 @@
-![Github](/github/url?url=https://docs.github.com/en/actions)
+![Github](/github/actions)
 hexlet-ci
 # hexlet-ci
 repository to learn use CI
