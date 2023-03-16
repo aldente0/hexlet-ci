@@ -9,4 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     # шаги, которые надо выполнить
     steps:
+      # экшен, выполняет какую-то задачу
+      # checkout – клонирует репозиторий
+      - uses: actions/checkout@v3
+      # print - hello world!!!
       - run: make say-hello
